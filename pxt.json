@@ -1,6 +1,6 @@
 {
     "name": "smartteam-6",
-    "version": "3.1.1",
+    "version": "3.1.5",
     "description": "SmartTEAM 6 — extensión MakeCode para micro:bit",
     "license": "MIT",
     "dependencies": {
