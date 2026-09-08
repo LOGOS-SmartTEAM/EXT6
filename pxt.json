@@ -1,6 +1,6 @@
 {
     "name": "smartteam-6",
-    "version": "3.1.5",
+    "version": "3.3.0",
     "description": "SmartTEAM 6 — extensión MakeCode para micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -13,6 +13,7 @@
         "blocks/sabana/ultrasonido.ts",
         "blocks/sabana/boton.ts",
         "blocks/sabana/dht11.ts",
+        "blocks/sabana/seguidor_linea.ts",
         "blocks/sabana/suelo.ts",
         "blocks/sabana/potenciometro.ts",
         "blocks/sabana/luz.ts",
