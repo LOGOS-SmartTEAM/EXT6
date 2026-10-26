@@ -1,31 +1,21 @@
 {
-    "name": "smartteam-6",
-    "version": "3.3.0",
-    "description": "SmartTEAM 6 — extensión MakeCode para micro:bit",
+    "name": "steambit-6",
+    "version": "4.0.0",
+    "description": "STEAMbit 6 — extensión MakeCode para micro:bit",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "microphone": "*"
     },
     "files": [
         "main.ts",
-        "blocks/categorias/bloques.ts",
-        "blocks/sabana/puertos.ts",
-        "blocks/sabana/ultrasonido.ts",
-        "blocks/sabana/boton.ts",
-        "blocks/sabana/dht11.ts",
-        "blocks/sabana/seguidor_linea.ts",
-        "blocks/sabana/suelo.ts",
-        "blocks/sabana/potenciometro.ts",
-        "blocks/sabana/luz.ts",
-        "blocks/sabana/tira_rgb.ts",
-        "blocks/sabana/led.ts",
-        "blocks/sabana/oled.ts",
-        "blocks/sabana/motor_multicolor.ts",
-        "blocks/sabana/servo.ts",
-        "blocks/sabana/helice.ts",
-        "blocks/sabana/movimiento.ts",
+        "bloques.ts",
         "main.blocks",
-        "README.md"
+        "README.md",
+        "_locales/es/steambit-6-strings.json",
+        "_locales/es/steambit-6-jsdoc-strings.json",
+        "_locales/pt/steambit-6-strings.json",
+        "_locales/pt/steambit-6-jsdoc-strings.json"
     ],
     "testFiles": [
         "test.ts"
